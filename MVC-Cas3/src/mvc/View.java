@@ -15,7 +15,7 @@ class View  {
     private Button button;
     private Model model;
 
-    // Konstruktor View klase - prima Model kao parametar
+    // Konstruktor View klase - prima Model kao parametar da bi uzeo pocetnu vrednost
     public View(Model model) {
 
         this.model = model;
