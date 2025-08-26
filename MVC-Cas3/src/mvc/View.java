@@ -51,7 +51,7 @@ class View  {
     public void addController(ActionListener controller) {
         System.out.println("View      : adding controller");
         button.addActionListener(controller); // Potreban je instance kontrolera
-        // pre nego što se moze dodati kao listener
+        // pre nego sto se moze dodati kao listener
     }
 
     // Metoda za inicijalizaciju tekstualnog polja
