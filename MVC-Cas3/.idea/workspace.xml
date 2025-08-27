@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01f7f19b-c281-49f2-8b7c-0ea17bad8006" name="Changes" comment="mvc changed name">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MVC-Cas3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc/Model.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc/RunMVC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mvc/View.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1756205404452</updated>
       <workItem from="1756205405714" duration="4157000" />
+      <workItem from="1756302577103" duration="1213000" />
     </task>
     <task id="LOCAL-00001" summary="mvc init">
       <option name="closed" value="true" />
@@ -138,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756209497775</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mvc changed name">
+      <option name="closed" value="true" />
+      <created>1756302836437</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756302836437</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mvc changed name">
+      <option name="closed" value="true" />
+      <created>1756302862961</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756302862961</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
