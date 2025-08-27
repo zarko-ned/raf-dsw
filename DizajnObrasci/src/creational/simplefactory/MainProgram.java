@@ -1,6 +1,6 @@
 package creational.simplefactory;
 
-public class Client {
+public class MainProgram {
     public static void main(String[] args) {
 
         LaptopFactory laptopFactory = new LaptopFactory();
