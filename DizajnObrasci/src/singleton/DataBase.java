@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DataBase {
-    // Statička promenljiva koja čuva jedinstvenu instancu
+    // Staticka promenljiva koja cuva jedinstvenu instancu
     private static DataBase instance;
 
     // Mapa koja simulira bazu podataka
@@ -16,7 +16,7 @@ public class DataBase {
         System.out.println("DataBase instance created.");
     }
 
-    // Statička metoda koja vraća jedinstvenu instancu
+    // Staticka metoda koja vraca jedinstvenu instancu
     public static synchronized DataBase getInstance() {
         if (instance == null) {
             instance = new DataBase();
