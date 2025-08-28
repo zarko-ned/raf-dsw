@@ -9,7 +9,7 @@ import creational.factory.store.PizzaStore;
 public class MainProgram {
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         PizzaStore store = returnPizzaStore(args[0]);
 
@@ -24,15 +24,13 @@ public class MainProgram {
         System.out.println("Ethan ordered a " + pizza.getName() + "\n");
 
 
-
-
     }
 
     private static PizzaStore returnPizzaStore(String type) {
 
-        if(type.equalsIgnoreCase("chicago")) return new ChicagoPizzaStore();
-        else if(type.equalsIgnoreCase("ny")) return new NYPizzaStore();
-        else if(type.equalsIgnoreCase("california")) return new CaliforniaPizzaStore();
+        if (type.equalsIgnoreCase("chicago")) return new ChicagoPizzaStore();
+        else if (type.equalsIgnoreCase("ny")) return new NYPizzaStore();
+        else if (type.equalsIgnoreCase("california")) return new CaliforniaPizzaStore();
         return null;
 
     }

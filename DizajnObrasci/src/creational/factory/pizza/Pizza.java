@@ -1,7 +1,7 @@
 package creational.factory.pizza;
 
-//Factories produce products, and in the PizzaStore, our product is a Pizza.
-// All its subclasses are the concrete products - all the pizzas that are produced by our stores.
+// Fabrike prave proizvode, i u PizzaStore klasi, nas proizvod je Pizza.
+// Sve podklase su konkretni proizvodi -sve pice su napravljene u nasim farbikama.
 
 public abstract class Pizza {
 
