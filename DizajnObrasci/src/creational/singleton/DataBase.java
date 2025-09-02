@@ -10,14 +10,14 @@ public class DataBase {
     // Mapa koja simulira bazu podataka
     private Map<Integer, Object> databaseMap;
 
-    // Privatni konstruktor sprečava instanciranje spolja
+    // Privatni konstruktor sprecava instanciranje spolja
     private DataBase() {
         databaseMap = new HashMap<>();
         System.out.println("DataBase instance created.");
     }
 
     // Staticka metoda koja vraca jedinstvenu instancu
-    public static synchronized DataBase getInstance() {
+    public static  DataBase getInstance() {
         if (instance == null) {
             instance = new DataBase();
         }
