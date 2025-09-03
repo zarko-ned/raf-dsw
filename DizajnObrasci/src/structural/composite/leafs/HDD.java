@@ -1,10 +1,11 @@
 package structural.composite.leafs;
 
+import structural.composite.ComputerPart;
 import structural.composite.ComputerPartLeaf;
 
 public class HDD extends ComputerPartLeaf {
-    public HDD(String name, double price) {
-        super(name, price);
+    public HDD(String name, double price, ComputerPart parent) {
+        super(name, price, parent);
     }
 
     @Override

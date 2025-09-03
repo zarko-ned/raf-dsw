@@ -5,7 +5,7 @@ import structural.composite.ComputerPartComposite;
 
 public class Computer extends ComputerPartComposite {
     public Computer(String name, double price) {
-        super(name, price);
+        super(name, price, null);
     }
 
     @Override

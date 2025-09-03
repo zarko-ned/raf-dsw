@@ -4,8 +4,8 @@ import structural.composite.ComputerPart;
 import structural.composite.ComputerPartComposite;
 
 public class StorageSystem extends ComputerPartComposite {
-    public StorageSystem(String name, double price) {
-        super(name, price);
+    public StorageSystem(String name, double price, ComputerPart parent) {
+        super(name, price, parent);
     }
 
     @Override

@@ -7,8 +7,8 @@ import java.util.List;
 public abstract class ComputerPartComposite extends ComputerPart {
     private List<ComputerPart> children;
 
-    public ComputerPartComposite(String name, double price) {
-        super(name, price);
+    public ComputerPartComposite(String name, double price, ComputerPart parent) {
+        super(name, price, parent);
         this.children = new ArrayList<>();
     }
 

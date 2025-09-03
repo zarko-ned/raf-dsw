@@ -4,10 +4,12 @@ package structural.composite;
 public abstract class ComputerPart {
     private String name;
     private double price;
+    private ComputerPart parent;
 
-    public ComputerPart(String name, double price) {
+    public ComputerPart(String name, double price, ComputerPart parent) {
         this.name = name;
         this.price = price;
+        this.parent = parent;
     }
 
     public String getName() {

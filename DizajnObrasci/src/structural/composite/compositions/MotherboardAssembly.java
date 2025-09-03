@@ -5,8 +5,8 @@ import structural.composite.ComputerPartComposite;
 
 // Sadrzi GPU i CPU
 public class MotherboardAssembly extends ComputerPartComposite {
-    public MotherboardAssembly(String name, double price) {
-        super(name, price);
+    public MotherboardAssembly(String name, double price, ComputerPart parent) {
+        super(name, price, parent);
     }
 
     @Override
