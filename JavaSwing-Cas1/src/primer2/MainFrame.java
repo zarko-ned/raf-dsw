@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 
 public class MainFrame extends JFrame {
     public MainFrame() {
-        Toolkit kit = Toolkit.getDefaultToolkit();
+        Toolkit kit = Toolkit.getDefaultToolkit(); // Uzimanje informacija o ekranu i upravlja resursima
         Dimension screenSize = kit.getScreenSize();
 
         // Postavljanje velicine prozora na polovinu ekrana
