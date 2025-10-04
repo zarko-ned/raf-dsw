@@ -2,7 +2,9 @@ package primer6;
 
 import javax.swing.*;
 import java.awt.*;
-
+/**
+ * Klasa koja predstavlja glavni prozor aplikacije sa toolbar-om.
+ */
 class ToolbarFrame extends JFrame {
     public ToolbarFrame() {
         setTitle("Meni i Toolbar primer");

@@ -1,7 +1,13 @@
 package primer8;
+
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Primer koji demonstrira korišćenje BorderLayout menadžera rasporeda.
+ * Komponente su raspoređene u pet regiona: NORTH, SOUTH, EAST,
+ * WEST i CENTER.
+ */
 public class BorderLayoutExample {
     public static void main(String[] args) {
         // Kreiranje prozora (JFrame)

@@ -3,6 +3,11 @@ package primer9;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Primer koji demonstrira korišćenje GridLayout menadžera rasporeda
+ * sa fleksibilnim brojem redova i fiksnim brojem kolona.
+ * Komponente su raspoređene u 3 kolone, a broj redova se automatski prilagođava.
+ */
 public class GridLayoutFlexExample {
     public static void main(String[] args) {
         JFrame frame = new JFrame("GridLayout Fleksibilni Primer");

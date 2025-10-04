@@ -3,6 +3,11 @@ package primer7;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Primer koji demonstrira korišćenje FlowLayout menadžera rasporeda.
+ * Dugmad su poravnata ulevo sa horizontalnim i vertikalnim razmakom
+ */
+
 public class FlowLayoutExample {
     public static void main(String[] args) {
         // Kreiranje prozora (JFrame)

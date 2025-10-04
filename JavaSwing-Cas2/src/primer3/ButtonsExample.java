@@ -3,6 +3,11 @@ package primer3;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Primer koji demonstrira razlicite tipove dugmadi u Swing-u:
+ * obicno dugme, checkbox, radio dugmad i toggle dugme.
+ */
+
 public class ButtonsExample {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Primer svih dugmadi");

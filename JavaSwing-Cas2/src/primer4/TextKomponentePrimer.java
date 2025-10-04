@@ -3,6 +3,10 @@ package primer4;
 import javax.swing.*;
 import java.awt.*;
 import javax.swing.text.MaskFormatter;
+/**
+ * Primer koji demonstrira razlicite tekstualne komponente u Swing-u:
+ * JLabel, JTextField, JFormattedTextField, JTextArea, JTextPane.
+ */
 
 public class TextKomponentePrimer {
     public static void main(String[] args) throws Exception {

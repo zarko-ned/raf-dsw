@@ -1,7 +1,9 @@
 package primer6;
 
 import javax.swing.*;
-
+/**
+ * Klasa koja predstavlja kompletan meni sa razlicitim tipovima stavki.
+ */
 class FullMenuBar extends JMenuBar {
     public FullMenuBar() {
         JMenu fileMenu = new JMenu("File");

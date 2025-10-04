@@ -1,7 +1,9 @@
 package primer6;
 
 import javax.swing.*;
-
+/**
+ * Klasa koja predstavlja glavni prozor aplikacije sa toolbar-om.
+ */
 class ToolBarPanel extends JToolBar {
     public ToolBarPanel() {
         setFloatable(true); // omogucava pomeranje toolbar-a

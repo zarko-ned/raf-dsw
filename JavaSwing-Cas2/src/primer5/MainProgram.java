@@ -2,6 +2,9 @@ package primer5;
 
 import javax.swing.*;
 
+/**
+ * Glavna klasa programa koja kreira i prikazuje glavni prozor aplikacije.
+ */
 public class MainProgram {
     public static void main(String[] args) {
         // 1. Kreiranje glavnog prozora (kontejner)

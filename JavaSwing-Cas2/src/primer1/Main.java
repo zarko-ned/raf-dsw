@@ -3,6 +3,10 @@ package primer1;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Primer jednostavnog GUI programa koristeći Swing
+ * sa modernim izgledom i bojama i kontejnerima.
+ */
 public class Main {
     public static void main(String[] args) {
         // 1. Kreiranje glavnog prozora (kontejner)

@@ -2,6 +2,9 @@ package primer5;
 
 import javax.swing.*;
 
+/**
+ * Klasa koja predstavlja traku menija sa različitim tipovima menija i stavki.
+ */
 class FullMenuBar extends JMenuBar {
     public FullMenuBar() {
         // JMenu 1: "A Menu"
@@ -17,8 +20,7 @@ class FullMenuBar extends JMenuBar {
 
         JMenuItem item3 = new JMenuItem("Close");
 
-        // Separator
-        JSeparator separator = new JSeparator();
+
 
         // Radio dugmad u meniju
         JRadioButtonMenuItem radio1 = new JRadioButtonMenuItem("Opcija 1");

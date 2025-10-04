@@ -2,6 +2,9 @@ package primer5;
 
 import javax.swing.*;
 
+/**
+ * Klasa koja predstavlja glavni prozor aplikacije sa kompletnim menijem.
+ */
 class FullMenuFrame extends JFrame {
     public FullMenuFrame() {
         setTitle("Kompletan meni primer");

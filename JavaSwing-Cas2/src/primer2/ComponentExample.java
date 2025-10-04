@@ -3,6 +3,10 @@ package primer2;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Primer koji demonstrira kreiranje i prilagodjavanje Swing komponente (JButton)
+ * unutar JFrame prozora.
+ */
 public class ComponentExample {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Primer komponente");
